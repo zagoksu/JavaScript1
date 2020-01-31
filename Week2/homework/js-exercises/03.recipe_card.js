@@ -6,6 +6,6 @@ let dinner = {
 };
 
   for (let property in dinner){
-     {console.log(`${property}: ${dinner[property]}`)}
+     console.log(`${property}: ${dinner[property]}`)
   };
 
