@@ -4,9 +4,9 @@ function calculateTotalPrice(price){
 
 let total = 0;
 for (let key in price) {
-     total += price[key];
+  total += price[key];
 }      
-return total;
+  return total;
 }
       
 let cartForParty = {
